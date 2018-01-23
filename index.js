@@ -47,7 +47,7 @@ container.addChild(yeezy);
 //
 // app.stage.addChild(wan);
 
-let aniwan;
+let aniWan;
 
 function onAssetsLoaded() {
   frames = [];
