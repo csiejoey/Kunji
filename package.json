@@ -1,0 +1,14 @@
+{
+  "name": "kungi-game",
+  "version": "1.0.0",
+  "description": "NTUEE Kungi-Game",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "csiejoey",
+  "license": "ISC",
+  "dependencies": {
+    "pixi.js": "^4.7.0"
+  }
+}
