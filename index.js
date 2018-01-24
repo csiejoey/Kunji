@@ -80,10 +80,9 @@ function onKeyDown(key) {
   }
   if(key.keyCode === 40) { // down
     container.y -= moveSpeed;
-    console.log(`container.y: ${container.y}`);
-    if(container.y < -190 && container.y > -400 && animWan.x > 420 && animWan.x < 570)
-      collideYeezy();
   }
+  if(container.y < -190 && container.y > -400 && animWan.x > 420 && animWan.x < 570)
+    collideYeezy();
 }
 
 function collideYeezy() {
