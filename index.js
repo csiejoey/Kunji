@@ -67,7 +67,6 @@ function onAssetsLoaded() {
 }
 
 function onKeyDown(key) {
-  // animWan.play();
   if(key.keyCode === 37) { // left
     animWan.x -= moveSpeed;
   }
